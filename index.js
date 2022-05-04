@@ -1,0 +1,13 @@
+var fs = require("fs");
+var pdf = require("html-pdf");
+var html = fs.readFileSync("./html.html", "utf8");
+var options = {
+  orientation: "landscape",
+  height: "1080px",
+  width: "1920px",
+};
+
+pdf.create(html, options).toFile("./businesscard.pdf", function (err, res) {
+  if (err) return console.log(err);
+  console.log(res); // { filename: '/app/businesscard.pdf' }
+});

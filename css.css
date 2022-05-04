@@ -1,0 +1,123 @@
+:root {
+  font-size: "10px";
+}
+@media all {
+  .certificate-container {
+    width: 100%;
+  }
+  .certificate-container #certificate-box {
+    background-color: white;
+    background-image: url(../../../assets/certificate/Elementos_1.png);
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+  }
+  .certificate-container #certificate-box .bartop {
+    background-color: navy;
+    height: 2rem;
+    width: 60%;
+  }
+  .certificate-container #certificate-box #nameStudent {
+    display: inline-block;
+    font-family: "Reey";
+    font-size: 6rem;
+    margin: 3rem 0;
+    padding: 2rem 0;
+    border-bottom: 0.3rem solid rgba(165, 125, 36, 0.7);
+  }
+  .certificate-container #certificate-box #certificate {
+    margin: 1rem;
+    border: 5px double #d2b704;
+    text-align: center;
+    padding: 64px;
+    color: gray;
+  }
+  .certificate-container #certificate-box #certificate h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-bottom: 0;
+  }
+  .certificate-container #certificate-box #certificate h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+  .certificate-container #certificate-box #certificate p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: gray;
+    text-transform: uppercase;
+  }
+  .certificate-container #certificate-box #certificate .iosi {
+    margin-bottom: 15px;
+  }
+  .certificate-container #certificate-box #certificate .ass {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .certificate-container #certificate-box #certificate .ass .nameDirector,
+  .certificate-container #certificate-box #certificate .ass .nameManager {
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+  .certificate-container
+    #certificate-box
+    #certificate
+    .ass
+    .nameDirector::after,
+  .certificate-container #certificate-box #certificate .ass .nameManager::after,
+  .certificate-container
+    #certificate-box
+    #certificate
+    .ass
+    .nameDirector::before,
+  .certificate-container
+    #certificate-box
+    #certificate
+    .ass
+    .nameManager::before {
+    content: "\00A0";
+  }
+  .certificate-container #certificate-box .barbot {
+    background-color: navy;
+    height: 2rem;
+    width: 60%;
+    margin-left: auto;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  .px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  .px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .border-bottom {
+    border-bottom-width: 1px;
+  }
+  .text-white {
+    color: white;
+  }
+  .py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  .p-5 {
+    padding: 1.25rem;
+  }
+}
