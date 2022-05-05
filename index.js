@@ -25,8 +25,8 @@ const data = {
 var html = fs.readFileSync("./html.html", "utf8");
 var options = {
   orientation: "landscape",
-  height: "1080px",
-  width: "1920px",
+  height: "1080 px",
+  width: "1920 px",
 };
 
 var templateHtml = fs.readFileSync(
